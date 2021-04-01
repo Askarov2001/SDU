@@ -13,4 +13,14 @@ class BookController extends Controller
 
         return view('book.index')->with(['books' => $books]);
     }
+
+    public function store(Request $request){
+        Book::create([
+            'name'=>$request->name,
+            'author'=>$request->author,
+            'year'=>$request->year
+        ]);
+
+        return back();
+    }
 }
