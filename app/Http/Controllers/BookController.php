@@ -23,4 +23,13 @@ class BookController extends Controller
 
         return back();
     }
+
+    public function get_book($id){
+        $book = Book::find($id);
+
+        if($book == null)
+        return response(['message' => 'book not found'], 404);
+
+        return view('book.detail')->with(['book'=>$book]);
+    }
 }

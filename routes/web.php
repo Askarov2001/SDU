@@ -44,3 +44,5 @@ Route::get('book/create', function(){
 });
 
 Route::post('book/create', [BookController::class, 'store'])->name('add-book');
+
+Route::get('book/{id}', [BookController::class, 'get_book']);
