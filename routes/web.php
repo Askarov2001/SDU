@@ -1,6 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\DB;
+
+use App\Models\Book;
+
+use App\Http\Controllers\BookController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,3 +29,13 @@ Route::get('/user', function () {
 Route::get('/home', function () {
     return "home";
 });
+
+Route::get('book/add', function() {
+    DB::table('books')->insert([
+        'name'=>'Война и Мир',
+        'author'=>'Лев Толстой',
+        'year'=>'1867'
+    ]);
+});
+
+Route::get('book', [BookController::class, 'index']);
