@@ -29,3 +29,6 @@ And here you can see how workers are added, how they can be changed and also see
 ![2021-04-22_04-08-47](https://user-images.githubusercontent.com/78431912/115627692-40b84b00-a321-11eb-9448-2fadbd8a9104.png)
 
 Here we have a file upload, we can upload any file here and it will show us which file is uploaded and also display the inscription that you will see!
+
+![2021-04-22_04-20-06](https://user-images.githubusercontent.com/78431912/115628204-174bef00-a322-11eb-8bee-adbfd72a3f8e.png)
+
