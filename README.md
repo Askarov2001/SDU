@@ -20,3 +20,5 @@ My Project talks about books, there are many things for example
 ![2021-04-22_04-03-39](https://user-images.githubusercontent.com/78431912/115626778-c804bf00-a31f-11eb-82b0-f452ccda8814.png)
 
 My Site consists of three languages: English, Rys and Kazakh
+
+And also in it you can send an email message in two ways ContactEmail and TestEmail
