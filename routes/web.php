@@ -6,6 +6,10 @@ use Illuminate\Support\Facades\DB;
 use App\Models\Book;
 
 use App\Http\Controllers\BookController;
+use App\Http\Controllers\EmployeeController;
+use App\Http\Controllers\MailController;
+use App\Http\Controllers\ServiceController;
+use App\Http\Controllers\UploadController;
 
 /*
 |--------------------------------------------------------------------------
@@ -46,3 +50,23 @@ Route::get('book/create', function(){
 Route::post('book/create', [BookController::class, 'store'])->name('add-book');
 
 Route::get('book/{id}', [BookController::class, 'get_book']);
+
+
+Route::get('/add-employee',[EmployeeController::class, 'addEmployee']);
+
+Route::post('/add-employee',[EmployeeController::class, 'storeEmployee'])->name('employee.store');
+
+Route::get('/all-employee',[EmployeeController::class, 'employees'])->name('employees');
+
+Route::get('/edit-employee/{id}',[EmployeeController::class, 'editEmployee']);
+
+Route::post('/update-employee',[EmployeeController::class, 'updateEmployee'])->name('employee.update');
+
+Route::get('/send-email',[MailController::class,'sendEmail'])->name('send-email');
+
+Route::get("{locale}/service",[ServiceController::class, 'service']);
+
+Route::view('upload','upload');
+Route::post('upload',[UploadController::class, 'index'])->name('upload');
+
+
