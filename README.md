@@ -22,3 +22,6 @@ My Project talks about books, there are many things for example
 My Site consists of three languages: English, Rys and Kazakh
 
 And also in it you can send an email message in two ways ContactEmail and TestEmail
+
+
+By clicking on this button, messages will be sent to the mail
