@@ -18,6 +18,9 @@ And also in it you can send an email message in two ways ContactEmail and TestEm
 By clicking on this button, messages will be sent to the mail
 ![2021-04-22_04-11-27](https://user-images.githubusercontent.com/78431912/115627488-eae3a300-a320-11eb-9c89-bdb28ff14ef8.png)
 ![2021-04-22_04-11-52](https://user-images.githubusercontent.com/78431912/115627497-ee772a00-a320-11eb-8e81-94f20c260496.png)
+![2021-04-22_04-17-35](https://user-images.githubusercontent.com/78431912/115627988-b6241b80-a321-11eb-8609-dc6eadd5c98a.png)
+
+
 
 
 And here you can see how workers are added, how they can be changed and also see their pictures
