@@ -40,4 +40,5 @@ when we click on the buttons we see what and how is happening on this page
 
 
 ERD-Diagram
-![2021-04-22_13-01-31](https://user-images.githubusercontent.com/78431912/115670173-f0fe7180-a36a-11eb-9112-1b856ec26168.png)
+![2021-04-22_13-39-43](https://user-images.githubusercontent.com/78431912/115675372-59038680-a370-11eb-8d9d-b1ab14a2e078.png)
+
