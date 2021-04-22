@@ -35,3 +35,8 @@ Here we have a file upload, we can upload any file here and it will show us whic
 
 when we click on the buttons we see what and how is happening on this page
 ![2021-04-22_04-23-16](https://user-images.githubusercontent.com/78431912/115628481-832e5780-a322-11eb-85a7-17755c1805b2.png)
+
+
+
+
+ERD-Diagram
